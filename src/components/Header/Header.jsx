@@ -11,7 +11,7 @@ function Header() {
   return (
     <>
 
-        <div className='flex items-center justify-between '>
+        <div className='flex items-center justify-between'>
             {/* search */}
             <div className="flex items-center">
                 <input
@@ -29,11 +29,12 @@ function Header() {
             </div>
             {/* end */}
             <div className="flex">
+                
                 <div><button className="border border-none bg-gray-800 rounded-md text-white px-3 py-1 text-sm ">Enrich</button></div>
-                <div className='flex'>
-                    <div><button className="border border-none  px-3 py-1 text-sm "><img src={share}></img></button></div>
-                    <div><button className="border border-none  px-3 py-1 text-sm "><img src={download}></img></button></div>
-                    <div><button className="border border-none  px-3 py-1 text-sm "><img src={trash}></img></button></div>
+                <div className='flex items-center'>
+                    <div><button className="border border-none "><img src={share}className='m-1'></img></button></div>
+                    <div><button className="border border-none  "><img src={download} className='m-1'></img></button></div>
+                    <div><button className="border border-none "><img src={trash} className='m-1'></img></button></div>
                     
                 </div>
             </div>
