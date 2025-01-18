@@ -21,8 +21,7 @@ const Table = () => {
     { no:"",no2:"",time: "", action: "", status: "" },
     { no:"",no2:"",time: "", action: "", status: "" },
     { no:"",no2:"",time: "", action: "", status: "" },
-    { no:"",no2:"",time: "", action: "", status: "" },
-    { no:"",no2:"",time: "", action: "", status: "" },
+   
     
 
     

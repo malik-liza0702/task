@@ -11,7 +11,7 @@ function Dashboard() {
     <>
     <div className="flex flex-col h-screen">
         <div className="p-2 flex justify-between items-center border-b border-#E5E5E5">
-            <div className="flex">
+            <div className="flex items-center">
                 <img src={left} className="m-1"></img>
                 <p className='text-sm'>Name of the file</p>
             </div>
